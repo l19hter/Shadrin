@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="static/css/style.css">
+    <title>{title}</title>
+</head>
+<body>
+<header>
+<div class="wrap">
+<div class="header">
+<div class="logo">
+    <a href="?category=catalog"><img src="static/img/logo.png" alt="" width="100" height="50"/></a>
+</div>
+<div class="nav">
+    <ul>
+        <li class = "{catalogActivity}"><a href="?category=catalog">Каталог</a></li>
+        <li class="{aboutActivity}"><a href="?category=about">О нас</a></li>
+        <li class="{mailingActivity}"><a href="?category=mailing">Рассылка</a></li>
+    </ul>
+</div>
+<div class="clear"></div>
+</div>
+</div>
+</header>
+<div class="content">
+    {CONTENT}
+</div>
+</body>
+</html>
