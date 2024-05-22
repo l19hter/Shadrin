@@ -9,7 +9,7 @@ function renderTemplate($templateFile, $variables) {
 $category = $_GET['category'];
 $page = '';
 
-$items =json_decode(file_get_contents('http:./API/items.php'), true);
+$items =json_decode(file_get_contents('http://shadrin11.vercel.app/API/items.php'), true);
 $items_html = '<div class="items">';
 
 foreach($items as $item){
